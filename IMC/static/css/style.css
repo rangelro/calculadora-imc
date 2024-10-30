@@ -1,0 +1,51 @@
+:root{
+    background-color: rgb(79, 98, 114);
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add_valor{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    min-width: 20%;
+    height: 20%;
+
+
+    margin: 0 auto;
+}
+
+.content{
+
+    max-width: 40%;
+
+    justify-content: center;
+    align-items: center ;
+    margin: 0 auto;
+}
+
+.botao{
+    background-color: cornsilk;
+    padding: 0.5rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    
+    max-width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+#resultado{
+    
+    text-align: center;
+    margin: 5%;
+    font-size: 45px;
+    color: white;
+}
+

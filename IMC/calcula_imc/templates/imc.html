@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block main %}
+    
+    <h1>Calculadora de IMC</h1>
+
+    <input type="number" id='peso' class="add_valor" placeholder="digite seu peso">
+    <input type="number" id='altura' class="add_valor" placeholder="digite sua altura">
+
+    <input type="button" value="Calcular" class="botao" onclick='calcular()'>
+
+    <div id='resultado'>
+
+    </div>
+
+    <script src="{% static 'script/imc.js' %} "></script>
+{% endblock main %}
+
+
